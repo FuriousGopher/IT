@@ -36,51 +36,19 @@ img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
-
 body{
-	padding: 10px;
+	padding: 30px;
 }
-.block{
+.text{
+	font-size: 24px;
+	line-height: 33px;
 	margin: 0 0 30px 0;
 }
-.block p{
-	font-size: 18px;
-	line-height: 24px;
-	margin: 0 0 20px 0;
-}
-.block:hover{
-	color: green;
-}
-.link{
-color: red;
-}
-.textinput{
-border: 1px solid black;
-height: 50px;
-padding: 0 15px;
-font-size: 18px;
-width: 300px;
-margin: 0 0 10px 0 ;
-}
-.textbutton{
-	display: block;
-	width: 300px;
-	height: 50px;
-	border-color: blue;
-	font-size: 18px;
-	color: rgb(88, 46, 239);
-	text-transform: uppercase;
-	margin: 0 0 30px 0;
-}
+
 .list{
 
 }
-
-.link:hover{
-	text-decoration: underline;
-	color: blue;
-}
 .list li{
-	font-size: 18px;
-	margin: 0 0 15px 0;
+	font-size: 24px;
+	margin: 0 0 20px 0;
 }
