@@ -4,19 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css_psevdo</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <title>CSSposition</title>
 </head>
 <body>
-    <p class="text">
-        Lorem ipsum dolor sit amet.
-    </p>
-    <ul class="list">
-        <li>Text</li>
-        <li>Text</li>
-        <li>Text</li>
-        <li>Text</li>
-        <li>Text</li>
-    </ul>
+    <div class="block">
+        <div class="block_1">
+            block_1
+        </div>
+        <div class="block_2">
+            block_2
+        </div>
+        <div class="block_3">
+            block_3
+        </div>
+    </div>
 </body>
+
+<style>
+body{
+    padding: 30px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.block{
+    border: 5px solid red ;
+    min-width: 800px;
+    margin: 0px auto;
+    height: 800px;
+}
+.block div{
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+.block_1{
+    background-color: rgb(38, 38, 148);
+}
+.block_2{
+    background-color: rgb(34, 94, 34);
+}
+.block_3{
+    background-color: rgb(150, 50, 150);
+}
+</style>
 </html>

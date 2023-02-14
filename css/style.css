@@ -19,7 +19,7 @@ html,body{
 	width: 100%;
 	font-size: 100%;
 	line-height: 1;
-	font-size: 14px;
+	font-size: 104px;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -40,7 +40,7 @@ body{
 	padding: 30px;
 }
 .text{
-	font-size: 24px;
+	font-size: 104px;
 	line-height: 33px;
 	margin: 0 0 30px 0;
 }
