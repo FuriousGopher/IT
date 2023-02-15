@@ -1,4 +1,8 @@
-.test {
+.testsas {
   font-size: 50px;
   padding: 50px;
+  margin: 50px;
+}
+.testsas span {
+  color: red;
 }/*# sourceMappingURL=scss.css.map */
