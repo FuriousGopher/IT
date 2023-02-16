@@ -98,22 +98,17 @@ body{
 	display: flex;
 	flex-direction: column;
 }
-.container-content {
-	max-width: 1180px;
-	margin: 0px auto;
 
-}
-.container {
-	max-width: 1180px;
-	margin: 0px auto;
-}
 
 .content {
 	flex: 1 1 auto;
+	max-width: 1180px;
+	margin: 0px auto;
 }
 .hi {
 	background-color: rgb(133, 96, 193);
 	padding: 50px 0;
+	
 }
 
 .hi-row {
@@ -128,8 +123,6 @@ body{
 	font-size: 60px;
 	margin: 0 0 38px 0 ;
 }
-.hi-list {
-}
 .hi-list li{
 	background: url(../flex/flex/img/icons/icon.png) no-repeat left;
 	text-shadow: 1px 1px 0 black ;
@@ -140,9 +133,6 @@ body{
 }
 .hi-list li:last-child{
 	margin: 0;
-}
-
-.hi-image {
 }
 .footer {
 	background-color: antiquewhite;
@@ -159,18 +149,11 @@ body{
 	letter-spacing: 0.3px;
 
 }
-
-
 .what {
 	padding: 50px 0;
 	display: flex;
 	max-width: 1180px;
 	margin: 0px auto;
-}
-.container {
-}
-.what-row {
-	
 }
 .what-image {
 	flex: 0 0 430px;
@@ -184,5 +167,47 @@ body{
 	line-height: 36px;
 	margin: 0 0 33px 0;
 }
-.what-text {
+
+.colum {
+	background-color: #f5f5f5;
+	padding: 50px 0;
+}
+.container {
+}
+.colum-title {
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+.colum-row {
+	display: flex;
+	flex-wrap: wrap;
+}
+.colum-colum {
+	flex: 0 1 50%;
+}
+.colum-item {
+}
+.item-row {
+	display: flex;
+}
+.item-img {
+	flex:0 0 200px ;
+}
+.item-body {
+	flex: 1 1 auto;
+	padding: 0 0 0 15px;
+}
+.item-title {
+	color: black;
+	font-size: 24px;
+	line-height: 30px;
+	margin: 0 0 13px 0 ;
+	
+	
+}
+.item-text {
+	color: black;
+	font-size: 16px;
+	line-height: 24px;
+
 }
