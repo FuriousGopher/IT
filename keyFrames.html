@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {}
+
+    .wrapper {
+        background-color: black;
+        padding: 50px;
+    }
+
+    .content {}
+
+    .content:hover .content-circle {
+        animation-play-state: paused;
+    }
+
+    .content-circle {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 50%;
+        position: relative;
+        left: 0;
+
+        animation-name: white-circle;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes white-circle {
+        0% {
+            left: 0;
+        }
+
+        50% {
+            border-radius: 0%;
+        }
+
+        100% {
+            left: 500px;
+        }
+    }
+</style>
+
+<body>
+    <div class="wrapper">
+        <div class="content">
+            <div class="content-circle"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
