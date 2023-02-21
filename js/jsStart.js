@@ -13,7 +13,8 @@ const string = 'Ivan dasfas'
 const nulll = null;
 const object = {
     number: 5,
-    string: 'Ivan',
+    string: 'Ivran',
+
     nothing: null,
     array: [5151, 59151951, 951951, 'dsfgdsfgdsgsd', { name: 'Ivannn' }]
 };
